@@ -1,0 +1,437 @@
+/*CONTACT US PAGE STYLES STARTS*/
+				/*banner */
+*
+{
+	margin: 0 auto;
+	padding: 0;
+	font-family: sans-serif;
+	outline:  none;
+
+
+	
+}
+
+#container
+{
+ 	height: auto;
+ 	width: 1570px;
+
+}							
+			/*HEADER SECTION STARTS */
+
+
+
+header{
+              width: 1570px;
+              height:55px;
+              background-color: rgba(0, 0, 0);
+              top: 0;
+              position: relative;
+
+              
+          }
+header li{
+
+              text-align: center;
+              width:400px;
+              color: white;
+            	display: inline-block;
+            	padding: 15px 10px;
+            	font-size: 18px;
+            	margin-left: 80px;
+
+
+          }
+header li i{
+              color: #3ab54a ;
+              size: 20px;
+          }
+
+          						/*NAVBAR STARTS HERE*/
+
+
+.navbar
+{
+	width: 1570px;
+	height: 80px;
+	background-color: white;
+	
+	 
+}
+.navbar img
+{
+	margin: 10px 50px;
+}
+
+
+nav{
+	width:1200PX;
+	height:80px;
+	position:relative;
+	z-index: 99;
+	float: right;
+	
+	
+}
+nav ul li
+{
+	float:left;
+	width:120px;
+	text-align:center;
+	line-height:72px;
+	list-style:none;
+	font-size: 16px;
+	text-transform: uppercase;
+
+
+
+}
+nav ul a 
+{
+	color:black;
+	text-decoration:none;
+	font-weight: 700;
+}
+nav ul li:hover
+{
+	color: #3ab54a;
+	text-decoration: none;
+}
+
+ul a:hover
+{
+	
+	text-decoration: none;
+	color: #3ab54a;
+	
+}
+.link_drop 
+{
+	
+	display: none;
+	padding-top: 20px;
+	
+	text-align: center;
+
+}
+.link_drop ol li
+{
+	line-height: 50px;
+}
+.link_drop ol li a
+{
+	width: 200px;
+	display: block;
+	background-color:#3ab54a;
+	margin-right: 20px;
+	line-height: -10px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	border-bottom: 1px solid #15A626;
+	transition: .3s
+
+
+}
+.link_drop ol li a:hover
+{
+	color: white;
+	background-color: #15A626;
+}
+.links_menu:hover .link_drop
+{
+display: block;
+
+}
+.membership_btn
+{
+	height: 60px;
+	width: 200px;
+	font-size: 18px;
+	color: white;
+	background-color: #15A626;
+	border: none;
+	border-radius: 100px;
+	transition: .3s;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+										/*CONTACT PAGE */
+.contact_main
+{
+	width: 1570px;
+	height: auto;
+
+}
+.contact_banner
+{
+	width: 1570px;
+	height: 566px;
+	 background-image: url(../images/contact.jpg);
+	 background-size: 100% 100%;
+	 margin-top: 11px;
+
+	 
+
+}
+
+
+.prev_jump
+{
+	height: 300px;
+	width: 600px;
+float: left;
+margin:20px 0px 0px 100px ;
+
+
+}
+.prev_jump h1
+
+{
+	margin-bottom: 40px;
+	color: white;
+	font-size:70px;
+	letter-spacing: 3px;
+	font-weight: lighter;
+
+
+}
+.jump
+{
+	color:  #3ab54a; 
+	font-weight: lighter;
+	font-size: 22px;
+	transition: .3s;
+	letter-spacing: 2px;
+}
+.prev_jump a
+{
+	text-decoration: none;
+}
+.jump:hover
+
+{
+	border-bottom: 2px solid #3ab54a ;
+	color: white;
+
+}
+.active
+{
+	color:  #3ab54a;
+	font-weight: lighter;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+								/*CONTACT FORM AND ADRESS STYLES*/
+
+.form_and_address_main
+{
+	width: 1570px;
+	height: 800px;
+}
+.contact_form_main
+{
+	width: 50%;
+	height:700px;
+	box-sizing: border-box;
+	margin-top: 50px
+	
+	
+
+}
+.address_main
+{
+	width: 50%;
+	height:700px;
+	background-color:  #3ab54a ;
+	margin-left: 50%;
+	margin-top: 50px
+
+}
+.contact_form_main
+{
+	float: left;
+
+}
+.address_text
+{
+	height: 450px;
+	width: 350px;
+	color: rgba(255, 255, 255, 0.76);
+	letter-spacing: 1px;
+	margin-left:  70px;
+	
+
+	
+}
+.address_text h3
+{
+	font-size: 28px;
+	margin-bottom: 10px;
+	padding-top: 80px;
+	color: rgba(255, 255, 255, 0.76)
+	
+}
+.address_text span
+{
+	border-bottom: 2px solid white;
+	color: #3ab54a ;
+	
+
+	
+}
+.address_text p
+{
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 100;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.76)
+}
+
+				/*FROM STYLES*/
+
+
+.form span
+{
+	margin-left: -160px;
+	color: white;
+	border-bottom: 3px solid rgba(63, 191, 127, 1);
+
+}
+
+.user_name, .email, .subject
+{
+	height: 50px;
+	width: 500px;
+	float: right;
+	border-radius: 100px;
+	margin: 30px 40px 0px  20px;
+
+	padding-left: 20px;
+
+	
+}	
+.message
+{
+	height: 150px;
+	width: 500px;
+	float: right;
+	border-radius: 50px;
+	margin: 30px 40px 0px  20px;
+	padding-left: 20px;
+}
+
+
+.submit
+{
+	height: 55px;
+	width: 180px;
+	float: right;
+	margin: 30px 300px 0px  0px;
+	border-radius: 250px;
+	background-color:#3ab54a  ;
+	color: white;
+	transition: .3s
+
+	
+
+}
+.submit[value]
+{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.user_name, .email, .subject, .submit, .message
+{
+	border: 1px solid rgba(63, 191, 127, 0.3);
+	box-shadow: none;
+}
+
+				/*MAP*/
+
+.map
+{
+	height: 600px;
+	width: 1570px;
+	background-color: rgba(244, 239, 239);
+	border-top: 2px solid rgba(9, 159, 21, 0.50);
+
+
+
+
+
+}
+.map img
+{
+	margin-left: 10%;
+	margin-top: 50px;
+	border:2px solid rgba(9, 159, 21, 0.50);;
+}
+/*ALL BUTTONS HOVER*/
+
+.book_btn:hover, .content button:hover, .join_sec_text button:hover, .submit:hover, .membership_btn:hover, .serv_butn button:hover, 
+.contact_faq_btn:hover
+{
+	border: 2px solid #3ab54a ;
+	background-color: white;
+	color: #3ab54a 
+}
+
+/*FOOTER SECTION STYLES*/
+.footer_container
+{
+	background-color: black;
+	width: 1570px;
+	height: 500px;
+	color: white;
+	overflow: hidden;
+	margin-top: 100px;
+	
+	
+}
+.horiz_sect
+{
+	margin-left: 50px;
+	margin-bottom: 50px;
+
+}
+
+
+.ver_sec1, .ver_sec2 ,.ver_sec3, .ver_sec4
+{
+	float: left;
+	margin: 100px 0px 0px 50px;
+	width: 330px;
+	
+
+
+}
+.ver_sec2 ol li, .ver_sec3 ol li, .ver_sec4 ol li 
+{
+	margin-bottom:  20px ;
+	list-style: none;
+}
+.ver_sec2 ol li	a, .ver_sec3 ol li	a, .ver_sec4 ol li	a
+{
+	color: white;
+	text-decoration: none;	
+	transition: .3s
+
+}	
+.ver_sec1 p, .ver_sec2 h2, .ver_sec3 h2, .ver_sec4 h2
+{
+	margin-bottom: 50px;
+
+}
+.ver_sec2  p, .ver_sec3  p, .ver_sec4  p
+
+{
+	border-top: 3px solid #3ab54a ;
+	margin-top: -30px;
+	width: 50px;
+	float: left;
+}

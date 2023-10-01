@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eproject</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet"  type="text/css" href="Style/gallerycss.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="Style/w3dailog.css"> <!-- Resource style -->
+	<script src="https://kit.fontawesome.com/62a4c191d7.js" crossorigin="anonymous"></script>
+</head>
+<body>								
+									<!-- main "conatainer" containes all elements prepaired by Jahangir , starts from here -->
+
+
+<div class="container">
+
+											<!-- HEADER AND NAVBAR SECTION  -->
+
+
+    <header>
+                    <li><i class="fas fa-search-location"></i> 59 street,Example Tower,NewYork</li>
+                    <li><i class="far fa-clock"></i></i> Open sat-Fri 9am-10pm</li>
+                    <li><i class="fas fa-phone-volume"></i> 3243256754</li>
+                </header>
+    <div class="navbar" >
+      <img src="images/logo.png">
+        <nav>
+
+
+    <ul>
+    <a href="index.html"><li  >HOME</li></a>
+   
+ <a href="services.html"><li class="links_menu"><span > Services </span>  <i class="fas fa-caret-down" style="color: #15A626"></i>
+                <div class="link_drop">
+                   <OL> 
+                    <li><a href="services1.html">Sports and Fitness </a> </li>
+                    <li><a href="services 8.html">Spa and Saloon</a></li>
+                    <li><a href="services 7.html">Group Exercise</a></li>
+                    <li><a href="services 2.html">Cycling </a> </li>
+                    <li><a href="services 5.html">Swimming</a></li>
+                </OL></div>
+             </li></a>   <a href="Gallery.html"><li class="active_page">Gallery</li></a>
+   <a href="contact us.html"><li>Enquiry</li></a>
+   <a href="faq.html"><li>faq</li></a>
+     <a href="sitemap.html"><li >sitemap</li></a>
+   <a href="Equipment 1.html"><li class="links_menu" style="padding-right: 3px;">Equipments<i class="fas fa-caret-down" style="color: #15A626; padding-left: 3px;"></i>
+                <div class="link_drop">
+                   <OL> 
+                    <li><a href="Equipment 2.html">Sports and Fitness</a> </li>
+                    <li><a href="Equipment 9.html">Spa and Saloon</a></li>
+                    <li><a href="Equipment 4.html">Cycling</a></li>
+                    <li><a href="Equipment 6.html">Swimming</a></li>
+
+
+                </OL></div>
+             </li></a>
+    <a href="about.html"><li>about</li></a>
+    <button class="membership_btn" onclick="document.getElementById('id01').style.display='block'"> Membership <span style="color: white; font-size: 22px; margin-left: 8PX; "><i class="fas fa-angle-right"></i></span> </button>  
+            
+        </ul>
+
+    </nav>
+
+   </div>
+
+                				<!-- Gallery -->
+
+
+
+        <div class="contact_main">
+        	
+        	<div class="contact_banner">
+        		<div class="prev_jump">
+        		<h1>Gallery</h1>
+        		<h3><a href="index.html"><span class="jump">Home</span></a><span class="active">  /  Gallery </span></h3>
+        		</div>
+        	</div>
+                
+        </div>
+        <!-----------Start Gallery page--------->
+        </br>
+     <main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".swimming-1"><a href="#0" data-type="swimming-1">Swimming</a></li>
+					<li class="filter" data-filter=".cycling-2"><a href="#0" data-type="cycling-2">Cycling</a></li>
+                    <li class="filter" data-filter=".fitness-3"><a href="#0" data-type="fitness-3">Fitness</a></li>
+                    <li class="filter" data-filter=".salon-4"><a href="#0" data-type="salon-4">Salon & SPA</a></li>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery">
+			<ul>
+				<li class="mix swimming-1  option3"><img src="img/swiming1.jpg" style="width:100%;width:360;
+height:380;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 1"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling1.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity"alt="Image 2"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness1.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 3"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon1.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 4"></li>
+				<li class="mix swimming-1  option3"><img src="img/swiming2.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 5"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling2.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 6"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness2.jpg" style="width:100%; ;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 7"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon2.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 8"></li>
+                <li class="mix swimming-1  option3"><img src="img/swiming3.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 9"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling3.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 10"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness3.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 11"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon3.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 12"></li>
+				<li class="mix swimming-1  option3"><img src="img/swiming4.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 11"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling4.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 12"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness4.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 13"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon4.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 14"></li>
+				<li class="mix swimming-1  option3"><img src="img/swiming5.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 15"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling5.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 16"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness5.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 17"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon5.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 18"></li>
+                <li class="mix swimming-1  option3"><img src="img/swiming6.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 19"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling6.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 20"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness6.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 21"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon6.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 22"></li>
+				<li class="mix swimming-1  option3"><img src="img/swiming7.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 23"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling7.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 24"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness7.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 25"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon7.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 26"></li>
+				<li class="mix swimming-1  option3"><img src="img/swiming8.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 27"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling8.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 28"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness8.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 29"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon8.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 30"></li>
+                <li class="mix swimming-1  option3"><img src="img/swiming9.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 31"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling9.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 32"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness9.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 33"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon9.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 34"></li>
+				<li class="mix swimming-1  option3"><img src="img/swiming10.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 35"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling10.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 36"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness10.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 37"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon10.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 38"></li>
+				<li class="mix swimming-1  option3"><img src="img/swiming11.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 39"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling11.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 40"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness11.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 41"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon11.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 42"></li>
+                <li class="mix swimming-1  option3"><img src="img/swiming12.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 43"></li>
+				<li class="mix cycling-2  option2"><img src="img/cycling12.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 44"></li>
+				<li class="mix fitness-3  option1"><img src="img/fitness12.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 45"></li>
+				<li class="mix salon-4 check3 radio2 option4"><img src="img/salon12.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity" alt="Image 46"></li>
+				
+			</ul>
+			
+		</section> <!-- cd-gallery -->
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+
+	
+	</main> 
+    <!-- cd-main-content -->			
+
+
+
+
+							<!-- footer starts -->
+
+		  <div class="footer_container">
+        <div class="ver_sec1">
+                <div class="horiz_sect">
+                    <img src="images/logo 2.png" height="80" width="300">
+                </div>
+                <p> Wimply dummy tex of the printing and typesetting industry <br>
+                 lorem ipsum has been te industry's ype and crambles  </p>
+        
+        </div>
+        <div class="ver_sec2">
+            <h2> Quick Links </h2><br>
+             <p> </p>
+            <ol>
+                <li> <a href="about.html"> About us  </a></li>
+                <li> <a href="services1.html"> Clases </a></li>
+                <li> <a href="about.html"> instructer </a></li>
+                <li> <a href="services1.html"> Schedule </a></li>
+                
+                
+            </ol>
+        </div>
+        <div class="ver_sec3">
+            <h2> Contact Info</h2> <br>
+               <p> </p>       
+            <ol>
+                <li> <a href="contact us.html"> 460,ExampleStreet,Example country </a></li>
+                <li> <a href="contact us.html"> info@example.com </a></li>
+                
+                
+            </ol>
+        </div>
+        <div class="ver_sec4">
+            <h2> Opening Hours </h2><br>
+            <p> </p>
+            <ol>
+                <li> <a href="services1.html"> Monday-Friday: 9AM-6PM </a></li>
+                <li> <a href="services1.html"> Saturday: 10AM-4PM </a></li>
+                <li> <a href="services1.html"> Sunday: 10AM-1PM</a></li>
+                
+            </ol>
+        </div>          
+        </div>  
+
+</div>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
