@@ -1,3 +1,19 @@
+
+body::after{
+   content: 'All images were used for study all rights are reserved for thier owners';
+    position: static;
+    color: white;
+    background: #0000008c !important;
+    z-index: 1000;
+    padding: .5rem;
+    width: 100vw;
+    display: flex
+;
+    justify-content: center;
+    
+
+
+}
 *
 {
 	margin: 0 auto;
